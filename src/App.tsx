@@ -5,9 +5,11 @@ import HeroSection from './components/HeroSection';
 import MethodologySection from './components/MethodologySection';
 import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
-import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
+import { Education } from './components/Education';
 export function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -23,10 +25,11 @@ export function App() {
   return <div className="bg-[#050816] text-white min-h-screen overflow-x-hidden">
       <Header />
       <main>
-        <HeroSection />
-        <MethodologySection />
-        <ProjectsSection />
+        <Hero/>
+        <About/>
         <SkillsSection />
+        <Education/>
+        <ProjectsSection />
         <ContactSection />
       </main>
       <Footer />

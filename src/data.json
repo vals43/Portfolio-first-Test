@@ -1,0 +1,125 @@
+
+{
+  "personal": {
+    "name": "Andrianiaina Valisoa Mampianina Teddy",
+    "title": "Full‑Stack Developer",
+    "greeting": "Hello !!!",
+    "bio": "Étudiant en informatique spécialisé en développement full‑stack, je conçois des applications web modernes en Java, JavaScript et PostgreSQL. Mon approche allie rigueur technique, curiosité constante et souci de l’expérience utilisateur afin de transformer des besoins concrets en solutions fiables et évolutives.",
+    "image": "./../img/télécharger (1).jpg",
+    "year": "2026"
+  },
+  "about": {
+    "description": "",
+    "detail": "Je suis convaincu que le bon design ne se résume pas à l’apparence, mais à la façon dont il fonctionne et à ce qu’il fait ressentir aux utilisateurs. Mon objectif est de créer des solutions numériques qui soient non seulement esthétiques, mais aussi intuitives et accessibles pour tous.",
+    "yearsExperience": "Depuis 2024",
+    "completeProject" : 2,
+    "skills": [
+      "UI/UX Design",
+      "Web Development"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Licence en Informatique",
+      "school": "HEI School",
+      "year": "2024 - maintenant",
+      "description": "École spécialisée en informatique."
+    },
+    {
+      "degree": "Bachelor in Public College",
+      "school": "Lycée public Ambohimangakely / Lycée privé Delta",
+      "year": "2022 - 2024",
+      "description": "Possesseur de 2 baccalauréat série S mention 'Passable' et série D avec mention 'Bien'."
+    }
+  ],
+  "experience": [
+    
+    {
+      "title": "Senior Art Director",
+      "company": "Creative Studio X",
+      "period": "2021 - Present",
+      "description": "Leading a team of designers and animators to deliver high-impact campaigns for global brands.",
+      "achievements": [
+        "Awarded Best Digital Campaign 2023",
+        "Increased client engagement by 40%",
+        "Mentored 5 junior designers"
+      ]
+    },
+    {
+      "title": "Visual Designer",
+      "company": "Tech Innovations Inc.",
+      "period": "2019 - 2021",
+      "description": "Created UI assets and marketing materials for software products.",
+      "achievements": [
+        "Redesigned core product interface",
+        "Developed comprehensive design system"
+      ]
+      
+    }
+  ],
+  
+  "projects": [
+  {
+    "title": "Nexus Analytics",
+    "description": "Plateforme d'analyse de données en temps réel avec visualisations interactives et algorithmes prédictifs.",
+    "icon": "LayoutDashboardIcon",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop",
+    "problem": "Comment transformer des données complexes en insights actionnables sans compromettre la performance.",
+    "solution": "Architecture modulaire avec rendu côté client optimisé et traitement backend distribué.",
+    "technologies": ["React", "TypeScript", "Node.js", "D3.js", "MongoDB"],
+    "demoUrl": "#",
+    "repoUrl": "#",
+    "color": "from-blue-500 to-cyan-400"
+  },
+  {
+    "title": "Ethereal Commerce",
+    "description": "Plateforme e-commerce avec expérience d'achat immersive et système de paiement sécurisé.",
+    "icon": "GlobeIcon",
+    "image": "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1632&auto=format&fit=crop",
+    "problem": "Créer une expérience d'achat fluide et engageante tout en assurant une sécurité maximale.",
+    "solution": "Interface utilisateur intuitive avec animations subtiles et architecture backend sécurisée.",
+    "technologies": ["Next.js", "Tailwind CSS", "Stripe", "PostgreSQL", "AWS"],
+    "demoUrl": "#",
+    "repoUrl": "#",
+    "color": "from-purple-500 to-pink-400"
+  },
+  {
+    "title": "Quantum Mobile",
+    "description": "Application mobile de productivité avec synchronisation cross-platform et mode hors ligne.",
+    "icon": "SmartphoneIcon",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1470&auto=format&fit=crop",
+    "problem": "Garantir une expérience utilisateur cohérente sur tous les appareils, même sans connexion.",
+    "solution": "Architecture de données locale avec synchronisation intelligente et UI adaptative.",
+    "technologies": ["React Native", "Redux", "GraphQL", "Firebase", "Realm"],
+    "demoUrl": "#",
+    "repoUrl": "#",
+    "color": "from-emerald-500 to-green-400"
+  },
+  {
+    "title": "Atlas API",
+    "description": "API RESTful hautement scalable avec documentation interactive et sandbox de test intégrée.",
+    "icon": "DatabaseIcon",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1634&auto=format&fit=crop",
+    "problem": "Concevoir une API robuste, performante et facile à utiliser pour les développeurs.",
+    "solution": "Architecture en microservices avec documentation auto-générée et mécanismes de rate limiting.",
+    "technologies": ["Node.js", "Express", "Docker", "Swagger", "Redis", "Jest"],
+    "demoUrl": "#",
+    "repoUrl": "#",
+    "color": "from-amber-500 to-orange-400"
+  }
+  ],
+  "contact": {
+    "email": "hei.teddy.3@gmail.com",
+    "phone": "+261 38 85 156 72",
+    "location": "Antananarivo, Ambohimangakely",
+    "social": {
+      "github": "https://github.com/vals43",
+      "facebook": "#",
+      "instagram": "#",
+      "dribbble": "#"
+    }
+  }
+
+  
+}
+

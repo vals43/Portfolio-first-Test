@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { CodeIcon, ServerIcon, DatabaseIcon, CloudIcon, PencilRulerIcon, BrainIcon, Languages } from 'lucide-react';
+import { CodeIcon, ServerIcon, DatabaseIcon, PencilRulerIcon, BrainIcon, Languages } from 'lucide-react';
 
 const skillCategories = [
     {
@@ -9,9 +9,7 @@ const skillCategories = [
         color: 'from-cyan-500 to-blue-600',
         skills: [
             { name: 'JavaScript', level: 70 },
-            { name: 'Java', level: 70 },
-            { name: 'Python', level: 0 },
-            { name: 'C++', level: 0 }
+            { name: 'Java', level: 70 }
         ]
     },
     {
@@ -19,12 +17,10 @@ const skillCategories = [
         icon: <CodeIcon className="w-6 h-6" />,
         color: 'from-cyan-500 to-blue-600',
         skills: [
-            { name: 'HTML', level: 70 },
-            { name: 'CSS', level: 70 },
-            { name: 'JavaScript', level: 50 },
-            { name: 'React', level: 10 },
-            { name: 'Front VibeCoding', level: 90 },
-            { name: 'Tailwind CSS', level: 30 }
+            { name: 'HTML', level: 60 },
+            { name: 'CSS', level: 60 },
+            { name: 'React', level: 70 },
+            { name: 'Tailwind CSS', level: 60 }
         ]
     },
     {
@@ -32,11 +28,11 @@ const skillCategories = [
         icon: <ServerIcon className="w-6 h-6" />,
         color: 'from-purple-500 to-pink-600',
         skills: [
-            { name: 'Node.js', level: 50 },
-            { name: 'Express', level: 0 },
-            { name: 'GraphQL', level: 0 },
-            { name: 'REST API', level: 0 },
-            { name: 'Authentication', level: 0 }
+            { name: 'Node.js', level: 60 },
+            { name: 'Express JS', level: 40 },
+            { name: 'Spring', level: 60 },
+            { name: 'JDBC', level: 60 },
+            { name: 'FAST API', level: 30 },
         ]
     },
     {
@@ -44,21 +40,7 @@ const skillCategories = [
         icon: <DatabaseIcon className="w-6 h-6" />,
         color: 'from-emerald-500 to-green-600',
         skills: [
-            { name: 'MongoDB', level: 0 },
-            { name: 'PostgreSQL', level: 40 },
-            { name: 'Redis', level: 0 },
-            { name: 'Firebase', level: 0 }
-        ]
-    },
-    {
-        name: 'DevOps',
-        icon: <CloudIcon className="w-6 h-6" />,
-        color: 'from-amber-500 to-orange-600',
-        skills: [
-            { name: 'Docker', level: 0 },
-            { name: 'CI/CD', level: 0 },
-            { name: 'AWS', level: 0 },
-            { name: 'Vercel', level: 0 }
+            { name: 'PostgreSQL', level: 70 }
         ]
     },
     {
@@ -77,9 +59,9 @@ const skillCategories = [
         icon: <BrainIcon className="w-6 h-6" />,
         color: 'from-blue-500 to-indigo-600',
         skills: [
-            { name: 'Problem Solving', level: 95 },
+            { name: 'Problem Solving', level: 90 },
             { name: 'Communication', level: 85 },
-            { name: 'Adaptabilité', level: 90 },
+            { name: 'Adaptabilité', level: 80 },
             { name: 'Gestion de Projet', level: 80 }
         ]
     }

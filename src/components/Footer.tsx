@@ -14,7 +14,7 @@ const Footer = () => {
             </span>
           </div>
           <div className="flex items-center gap-1 text-gray-400 text-sm">
-            <span>© 2025 - Créé avec</span>
+            <span>© 2025 </span>
             <motion.div animate={{
             scale: [1, 1.2, 1]
           }} transition={{
@@ -22,7 +22,6 @@ const Footer = () => {
             repeat: Infinity,
             repeatType: 'reverse'
           }}>
-              <HeartIcon className="w-4 h-4 text-red-500" />
             </motion.div>
             <span> Just a portfolio Test</span>
           </div>
