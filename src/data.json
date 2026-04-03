@@ -2,34 +2,38 @@
 {
   "personal": {
     "name": "Andrianiaina Valisoa Mampianina Teddy",
-    "title": "Full‑Stack Developer",
+    "title": "Full‑Stack Developer – Java, JavaScript & PostgreSQL",
     "greeting": "Hello !!!",
     "bio": "Étudiant en informatique spécialisé en développement full‑stack, je conçois des applications web modernes en Java, JavaScript et PostgreSQL. Mon approche allie rigueur technique, curiosité constante et souci de l’expérience utilisateur afin de transformer des besoins concrets en solutions fiables et évolutives.",
-    "image": "./../img/télécharger (1).jpg",
-    "year": "2026"
+    "image": "https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1775200561/Gemini_Generated_Image_mfpvwlmfpvwlmfpv_neutpf.png",
+    "year": ""
   },
   "about": {
     "description": "",
     "detail": "Je suis convaincu que le bon design ne se résume pas à l’apparence, mais à la façon dont il fonctionne et à ce qu’il fait ressentir aux utilisateurs. Mon objectif est de créer des solutions numériques qui soient non seulement esthétiques, mais aussi intuitives et accessibles pour tous.",
     "yearsExperience": "Depuis 2024",
-    "completeProject" : 2,
+    "completeProject" : 4,
     "skills": [
       "UI/UX Design",
-      "Web Development"
+      "Web Development",
+      "Full-Stack Development",
+      "API Design & Integration",
+      "Database Design",
+      "Problem Solving"
     ]
   },
   "education": [
     {
       "degree": "Licence en Informatique",
       "school": "HEI School",
-      "year": "2024 - maintenant",
-      "description": "École spécialisée en informatique."
+      "year": "2024 – Présent",
+      "description": "Formation orientée développement full‑stack (Java, JavaScript, PostgreSQL) avec mise en pratique via projets concrets."
     },
     {
-      "degree": "Bachelor in Public College",
-      "school": "Lycée public Ambohimangakely / Lycée privé Delta",
+      "degree": "Parcours scientifique ",
+      "school": "Lycée public Ambohimangakely & Lycée privé Delta",
       "year": "2022 - 2024",
-      "description": "Possesseur de 2 baccalauréat série S mention 'Passable' et série D avec mention 'Bien'."
+      "description": "Double baccalauréat scientifique validé, démontrant rigueur et capacité de travail. Baccalauréat série S – Mention « Passable ». Baccalauréat série D – Mention « Bien ». Solides bases en mathématiques, logique et sciences, utiles pour l’algorithmique et la résolution de problèmes en développement"
     }
   ],
   "experience": [
@@ -58,65 +62,65 @@
     }
   ],
   
-  "projects": [
+"projects": [
   {
-    "title": "Nexus Analytics",
-    "description": "Plateforme d'analyse de données en temps réel avec visualisations interactives et algorithmes prédictifs.",
+    "title": "Application de suivi d’habitudes et de productivité",
+    "description": "Cette application aide les utilisateurs à organiser leur quotidien, suivre leurs habitudes, gérer leurs tâches et visualiser leur productivité grâce à des statistiques claires et accessibles.",
     "icon": "LayoutDashboardIcon",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop",
-    "problem": "Comment transformer des données complexes en insights actionnables sans compromettre la performance.",
-    "solution": "Architecture modulaire avec rendu côté client optimisé et traitement backend distribué.",
-    "technologies": ["React", "TypeScript", "Node.js", "D3.js", "MongoDB"],
+    "image": "https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1775062162/Capture_d_%C3%A9cran_2026-04-01_194351_r4figs.png",
+    "problem": "Les utilisateurs ont du mal à garder une vision globale et fiable de leurs habitudes et de leur niveau de productivité au fil du temps.",
+    "solution": "Une application full stack avec backend Spring Boot exposant des APIs REST et frontend React/TypeScript offrant des vues de suivi, de planning et des statistiques synthétiques.",
+    "technologies": ["Spring Boot", "Java", "React", "TypeScript", "REST API", "PostgreSQL"],
     "demoUrl": "#",
-    "repoUrl": "#",
+    "repoUrl": "https://github.com/vals43/PRO1--Client",
     "color": "from-blue-500 to-cyan-400"
   },
   {
-    "title": "Ethereal Commerce",
-    "description": "Plateforme e-commerce avec expérience d'achat immersive et système de paiement sécurisé.",
+    "title": "Personal Expense Tracker",
+    "description": "Application PERN de suivi de dépenses permettant d’enregistrer ses transactions, de les catégoriser et de visualiser son budget.",
     "icon": "GlobeIcon",
-    "image": "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1632&auto=format&fit=crop",
-    "problem": "Créer une expérience d'achat fluide et engageante tout en assurant une sécurité maximale.",
-    "solution": "Interface utilisateur intuitive avec animations subtiles et architecture backend sécurisée.",
-    "technologies": ["Next.js", "Tailwind CSS", "Stripe", "PostgreSQL", "AWS"],
+    "image": "https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1775063100/Capture_d_%C3%A9cran_2026-04-01_200333_vok1hg.png",
+    "problem": "Difficile de garder une vue d’ensemble de ses dépenses et de ses catégories de consommation avec des outils manuels.",
+    "solution": "Stack PERN avec API Node/Express, base PostgreSQL et frontend React pour ajouter des dépenses, filtrer par catégorie et afficher des totaux clairs.",
+    "technologies": ["PostgreSQL", "Express", "React", "Node.js"],
     "demoUrl": "#",
-    "repoUrl": "#",
+    "repoUrl": "https://github.com/vals43/Personal-Expense-Tracker",
+    "color": "from-emerald-500 to-teal-400"
+  },
+  {
+    "title": "Pokedex-exo",
+    "description": "Mini Pokédex réalisé avec React pour explorer et afficher des informations sur différents Pokémon.",
+    "icon": "GlobeIcon",
+    "image": "https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1775129571/Capture_d_%C3%A9cran_2026-04-02_141141_rrzvt2.png",
+    "problem": "Les utilisateurs ont besoin d’une interface simple et réactive pour parcourir une liste de Pokémon et consulter leurs détails.",
+    "solution": "Application React consommant une API Pokémon, avec composants réutilisables, liste filtrable et affichage des informations clés de chaque Pokémon.",
+    "technologies": ["React", "JavaScript", "CSS"],
+    "demoUrl": "#",
+    "repoUrl": "https://github.com/vals43/Pokedex-exo",
     "color": "from-purple-500 to-pink-400"
   },
   {
-    "title": "Quantum Mobile",
-    "description": "Application mobile de productivité avec synchronisation cross-platform et mode hors ligne.",
-    "icon": "SmartphoneIcon",
-    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1470&auto=format&fit=crop",
-    "problem": "Garantir une expérience utilisateur cohérente sur tous les appareils, même sans connexion.",
-    "solution": "Architecture de données locale avec synchronisation intelligente et UI adaptative.",
-    "technologies": ["React Native", "Redux", "GraphQL", "Firebase", "Realm"],
+    "title": "Typing Game – Vanilla JS",
+    "description": "Jeu de dactylographie minimaliste en HTML, CSS et JavaScript pour entraîner sa vitesse et sa précision de frappe.",
+    "icon": "GlobeIcon",
+    "image": "https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1775129571/Capture_d_%C3%A9cran_2026-04-02_141345_ehlerf.png",
+    "problem": "Les utilisateurs manquent d’un outil simple et ludique pour pratiquer leur frappe au clavier et suivre leurs progrès.",
+    "solution": "Jeu en JavaScript vanilla affichant des mots à taper avec gestion du chronomètre, calcul du WPM et de la précision en temps réel.",
+    "technologies": ["JavaScript", "HTML", "CSS"],
     "demoUrl": "#",
-    "repoUrl": "#",
-    "color": "from-emerald-500 to-green-400"
-  },
-  {
-    "title": "Atlas API",
-    "description": "API RESTful hautement scalable avec documentation interactive et sandbox de test intégrée.",
-    "icon": "DatabaseIcon",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1634&auto=format&fit=crop",
-    "problem": "Concevoir une API robuste, performante et facile à utiliser pour les développeurs.",
-    "solution": "Architecture en microservices avec documentation auto-générée et mécanismes de rate limiting.",
-    "technologies": ["Node.js", "Express", "Docker", "Swagger", "Redis", "Jest"],
-    "demoUrl": "#",
-    "repoUrl": "#",
+    "repoUrl": "https://github.com/vals43/a-new-typing-game-with-vanilla-js-STD24041-STD24123",
     "color": "from-amber-500 to-orange-400"
   }
-  ],
+]
+,
   "contact": {
     "email": "hei.teddy.3@gmail.com",
     "phone": "+261 38 85 156 72",
     "location": "Antananarivo, Ambohimangakely",
     "social": {
       "github": "https://github.com/vals43",
-      "facebook": "#",
-      "instagram": "#",
-      "dribbble": "#"
+      "facebook": "https://web.facebook.com/teddy.avm",
+      "Linkedin": "https://www.linkedin.com/in/valisoa-mampianina-teddy-andrianiaina-433603380/"
     }
   }
 

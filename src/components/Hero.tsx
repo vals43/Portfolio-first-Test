@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { GlassCard } from './GlassCard';
 import { ArrowRight, Download } from 'lucide-react';
 import data from '../data.json';
+import gsap from 'gsap'
 export function Hero() {
   const backgroundRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -39,7 +40,7 @@ export function Hero() {
       window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
-  return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-40">
+  return <section id="accueil" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-40">
       {/* Background Elements */}
       <div ref={backgroundRef} className="absolute inset-0 z-0">
         {/* Grid lines */}
@@ -105,13 +106,15 @@ export function Hero() {
               View Work <ArrowRight size={18} />
             </motion.a>
 
-            <motion.button whileHover={{
-            scale: 1.05
-          }} whileTap={{
-            scale: 0.95
-          }} className="px-8 py-3 bg-gradient-to-r from-blue-800 to-blue-950 text-white rounded-full font-medium flex items-center gap-2 backdrop-blur-sm hover:bg-white/10 shadow-xl transition-colors shadow-blue-800/25">
-              Download CV <Download size={18} />
-            </motion.button>
+<motion.a
+  href="https://ton-sous-domaine.tiiny.site/cv.pdf" 
+  download="Teddy-Andria-CV.pdf"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="px-8 py-3 bg-gradient-to-r from-blue-800 to-blue-950 text-white rounded-full font-medium flex items-center gap-2 backdrop-blur-sm hover:bg-white/10 shadow-xl transition-colors shadow-blue-800/25"
+>
+  Download CV <Download size={18} />
+</motion.a>
           </div>
         </motion.div>
 

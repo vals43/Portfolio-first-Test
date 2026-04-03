@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
-import { CodeIcon, HeartIcon } from 'lucide-react';
+import { CodeIcon } from 'lucide-react';
 const Footer = () => {
+  
+  
   return <footer className="bg-[#080a1a] border-t border-purple-900/20 py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -14,7 +16,7 @@ const Footer = () => {
             </span>
           </div>
           <div className="flex items-center gap-1 text-gray-400 text-sm">
-            <span>© 2025 </span>
+            <span>© 2026</span>
             <motion.div animate={{
             scale: [1, 1.2, 1]
           }} transition={{
@@ -23,7 +25,7 @@ const Footer = () => {
             repeatType: 'reverse'
           }}>
             </motion.div>
-            <span> Just a portfolio Test</span>
+            <span> Portfolio </span>
           </div>
         </div>
       </div>

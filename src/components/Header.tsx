@@ -33,7 +33,7 @@ const Header = () => {
         </a>
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          {['À propos', 'Méthode', 'Projets', 'Compétences', 'Contact'].map((item, index) => <motion.a key={item} href={`#${item.toLowerCase()}`} className="text-gray-300 hover:text-cyan-400 transition-colors relative group" whileHover={{
+          {['Accueil', 'A propos', 'Compétences', 'Projets', 'Contact'].map((item, index) => <motion.a key={item} href={`#${item.toLowerCase()}`} className="text-gray-300 hover:text-cyan-400 transition-colors relative group" whileHover={{
           scale: 1.05
         }} transition={{
           type: 'spring',
@@ -63,7 +63,7 @@ const Header = () => {
       duration: 0.3
     }}>
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
-            {['À propos', 'Méthode', 'Projets', 'Compétences', 'Contact'].map(item => <a key={item} href={`#${item.toLowerCase()}`} className="text-gray-300 hover:text-cyan-400 py-2 border-b border-purple-900/20" onClick={() => setMobileMenuOpen(false)}>
+            {['Accueil', 'A propos', 'Compétences', 'Projets', 'Contact'].map(item => <a key={item} href={`#${item.toLowerCase()}`} className="text-gray-300 hover:text-cyan-400 py-2 border-b border-purple-900/20" onClick={() => setMobileMenuOpen(false)}>
                   {item}
                 </a>)}
           </div>

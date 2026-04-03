@@ -5,11 +5,11 @@ import { Code, Palette, Zap, Layout, Terminal, PenTool } from 'lucide-react';
 import data from '../data.json';
 const iconMap: Record<string, any> = {
   'UI/UX Design': Layout,
-  'Motion Graphics': Zap,
-  'Video Editing': Palette,
-  'Brand Identity': PenTool,
-  '3D Modeling': BoxIcon,
-  'Web Development': Code
+  'Web Development': Code,
+  'Full-Stack Development': Code,
+  'API Design & Integration': Zap,
+  'Database Design': BoxIcon,
+  'Problem Solving': PenTool
 };
 // Fallback icon component
 function BoxIcon(props: any) {
@@ -20,7 +20,7 @@ function BoxIcon(props: any) {
     </svg>;
 }
 export function About() {
-  return <section id="about" className="py-20 relative">
+  return <section id="a propos" className="py-20 relative">
       <div className="container mx-auto px-6">
         <motion.div initial={{
         opacity: 0,

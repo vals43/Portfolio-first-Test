@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LoadingScreen from './components/LoadingScreen';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import MethodologySection from './components/MethodologySection';
 import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
 import ContactSection from './components/ContactSection';
