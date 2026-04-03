@@ -218,7 +218,7 @@ const ProjectsSection = () => {
           <div className="flex flex-col sm:flex-row gap-4">
             <a href={projects[activeProject].demoUrl} className="flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full hover:shadow-lg hover:shadow-cyan-500/25 transition-all">
               <ExternalLinkIcon className="w-5 h-5" />
-              <span>Voir la Démo (screenshoot)</span>
+              <span>Pas encore déployé</span>
             </a>
             <a href={projects[activeProject].repoUrl} className="flex items-center justify-center gap-2 px-6 py-3 bg-[#1a1e35] border border-gray-700 rounded-full hover:bg-[#252a47] transition-colors">
               <GithubIcon className="w-5 h-5" />
