@@ -41,7 +41,6 @@ const ProjectsSection = () => {
   return <section id="projets" ref={sectionRef} className="py-20 md:py-32 relative">
     {/* Background elements */}
     <div className="absolute top-0 right-0 w-72 h-72 bg-cyan-600 rounded-full filter blur-[120px] opacity-10"></div>
-    <div className="absolute bottom-0 left-0 w-72 h-72 bg-purple-600 rounded-full filter blur-[120px] opacity-10"></div>
     <div className="container mx-auto px-4">
       <motion.div className="text-center mb-16" initial={{
         opacity: 0,

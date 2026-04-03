@@ -107,7 +107,7 @@ export function Hero() {
             </motion.a>
 
 <motion.a
-  href="https://ton-sous-domaine.tiiny.site/cv.pdf" 
+  href="https://github.com/vals43/Portfolio-first-Test/raw/main/CV%20Teddy%20Andrianiaina.pdf" 
   download="Teddy-Andria-CV.pdf"
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}
