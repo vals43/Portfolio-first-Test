@@ -20,6 +20,7 @@ const ProjectsSection = () => {
 
 
   const [activeProject, setActiveProject] = useState<number | null>(null);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
   // Custom carousel/slider functionality
   const maxVisibleItems = typeof window !== 'undefined' ? window.innerWidth >= 1024 ? 3 : window.innerWidth >= 640 ? 2 : 1 : 1;
@@ -102,9 +103,12 @@ const ProjectsSection = () => {
           }} transition={{
             duration: 0.5,
             delay: index * 0.1
-          }} onClick={() => setActiveProject(projects.indexOf(project))}>
+          }} onClick={() => {
+            setActiveProject(projects.indexOf(project));
+            setActiveImageIndex(0);
+          }}>
             <div className="relative h-48 overflow-hidden">
-              <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform group-hover:scale-105" />
+              <img src={project.images[0]} alt={project.title} className="w-full h-full object-cover transition-transform group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#050816] to-transparent"></div>
               {/* Icon badge */}
               <div className={`absolute top-4 right-4 p-2 rounded-full bg-gradient-to-r ${project.color} group-hover:scale-110 transition-all`}>
@@ -169,8 +173,32 @@ const ProjectsSection = () => {
         opacity: 0
       }} className="bg-[#0a0d1f] border border-purple-900/20 rounded-xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
         <div className="relative">
-          <img src={projects[activeProject].image} alt={projects[activeProject].title} className="w-full h-64 object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d1f] to-transparent"></div>
+          <div className="relative h-64 overflow-hidden">
+            <img src={projects[activeProject].images[activeImageIndex]} alt={projects[activeProject].title} className="w-full h-full object-cover" />
+            {projects[activeProject].images.length > 1 && <>
+              <button className="absolute left-2 top-1/2 -translate-y-1/2 p-2 bg-black/50 rounded-full hover:bg-black/70 transition-colors" onClick={(e) => {
+                e.stopPropagation();
+                setActiveImageIndex(i => i === 0 ? projects[activeProject].images.length - 1 : i - 1);
+              }}>
+                <ChevronLeftIcon className="w-5 h-5" />
+              </button>
+              <button className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-black/50 rounded-full hover:bg-black/70 transition-colors" onClick={(e) => {
+                e.stopPropagation();
+                setActiveImageIndex(i => i === projects[activeProject].images.length - 1 ? 0 : i + 1);
+              }}>
+                <ChevronRightIcon className="w-5 h-5" />
+              </button>
+              <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-2">
+                {projects[activeProject].images.map((_, i) => (
+                  <button key={i} className={`w-2 h-2 rounded-full transition-colors ${i === activeImageIndex ? 'bg-white' : 'bg-white/40'}`} onClick={(e) => {
+                    e.stopPropagation();
+                    setActiveImageIndex(i);
+                  }} />
+                ))}
+              </div>
+            </>}
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d1f] to-transparent pointer-events-none"></div>
           <button className="absolute top-4 right-4 p-2 bg-black/50 rounded-full hover:bg-black/70 transition-colors" onClick={() => setActiveProject(null)}>
             <XIcon className="w-5 h-5" />
           </button>
