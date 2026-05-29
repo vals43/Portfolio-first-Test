@@ -33,7 +33,7 @@ export function About() {
       }} transition={{
         duration: 0.6
       }} className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
             About <span className="text-cyan-400">Me</span>
           </h2>
           <div className="h-1 w-20 bg-purple-500 rounded-full" />
@@ -52,7 +52,7 @@ export function About() {
           duration: 0.6
         }} className="md:col-span-2">
             <GlassCard className="p-8 h-full">
-              <h3 className="text-2xl font-bold text-white mb-6">My Journey</h3>
+              <h3 className="text-2xl font-heading font-bold text-white mb-6">My Journey</h3>
               <p className="text-gray-300 leading-relaxed text-lg mb-6">
                 {data.about.description}
               </p>
@@ -88,7 +88,7 @@ export function About() {
           delay: 0.2
         }}>
             <GlassCard className="p-8 h-full">
-              <h3 className="text-2xl font-bold text-white mb-6">Skills</h3>
+              <h3 className="text-2xl font-heading font-bold text-white mb-6">Skills</h3>
               <div className="grid grid-cols-1 gap-4">
                 {data.about.skills.map((skill) => {
                 const Icon = iconMap[skill] || Terminal;

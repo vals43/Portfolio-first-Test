@@ -17,7 +17,7 @@ export function Education() {
       }} transition={{
         duration: 0.6
       }} className="mb-16 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
             Education
           </h2>
           <div className="h-1 w-20 bg-cyan-500 rounded-full mx-auto md:mx-0" />
@@ -54,7 +54,7 @@ export function Education() {
                       <span>{edu.year}</span>
                     </div>
 
-                    <h3 className="text-xl font-bold text-white mb-1">
+                    <h3 className="text-xl font-heading font-bold text-white mb-1">
                       {edu.degree}
                     </h3>
                     <h4 className="text-lg text-purple-300 mb-4">

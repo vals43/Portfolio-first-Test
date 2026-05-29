@@ -20,7 +20,8 @@ export function App() {
   if (loading) {
     return <LoadingScreen />;
   }
-  return <div className="bg-[#050816] text-white min-h-screen overflow-x-hidden">
+  return <div className="bg-[#050816] text-white min-h-screen overflow-x-hidden font-body">
+      <div className="noise-overlay" />
       <Header />
       <main>
         <Hero/>

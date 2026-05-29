@@ -80,7 +80,7 @@ export function Hero() {
             </span>
           </motion.div>
 
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-heading font-bold text-white mb-6 leading-tight">
             I'm{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
               {data.personal.name}
@@ -89,7 +89,7 @@ export function Hero() {
 
           <div className="h-1 w-24 bg-gradient-to-r from-cyan-400 to-purple-500 mb-8 rounded-full" />
 
-          <h2 className="text-2xl md:text-3xl text-gray-300 mb-6 font-light">
+          <h2 className="text-xl md:text-2xl text-gray-300 mb-6 font-light font-body">
             {data.personal.title}
           </h2>
 

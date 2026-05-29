@@ -45,7 +45,7 @@ export default function ContactSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
               Let's Work <span className="text-purple-400">Together</span>
             </h2>
             <p className="text-gray-400 text-lg mb-12 max-w-md">

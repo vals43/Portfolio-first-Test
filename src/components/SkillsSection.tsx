@@ -94,7 +94,7 @@ const SkillsSection = () => {
                 }} transition={{
                     duration: 0.8
                 }}>
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                    <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Le Spectre des{' '}
                         <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
                             Compétences
@@ -171,7 +171,7 @@ const SkillsSection = () => {
                                 delay: index * 0.1
                             }} className="bg-[#0a0d1f]/70 backdrop-blur-sm border border-purple-900/20 rounded-lg p-5">
                                 <div className="flex justify-between items-center mb-2">
-                                    <h3 className="font-medium text-lg">{skill.name}</h3>
+                                    <h3 className="font-heading font-medium text-lg">{skill.name}</h3>
                                     <span className="text-sm text-gray-400">{skill.level}%</span>
                                 </div>
                                 <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
