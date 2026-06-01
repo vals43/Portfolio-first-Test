@@ -144,7 +144,7 @@
       "solution": "Application web moderne proposant une navigation hiérarchique des lois, une interface élégante et des fonctionnalités comme les favoris et l’administration.",
       "technologies": ["React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"],
       "demoUrl": "#",
-      "repoUrl": "#",
+      "repoUrl": "https://github.com/vals43/madalaws",
       "color": "from-emerald-600 to-lime-400"
     },
     {
@@ -158,7 +158,7 @@
       "solution": "Interface immersive avec typographie élégante, animations modernes et mise en avant visuelle des produits pour renforcer l’image de marque.",
       "technologies": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
       "demoUrl": "#",
-      "repoUrl": "#",
+      "repoUrl": "http://github.com/vals43/Saravea",
       "color": "from-yellow-700 to-amber-500"
     }
   ],
