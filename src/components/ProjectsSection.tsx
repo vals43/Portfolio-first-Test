@@ -262,7 +262,7 @@ const ProjectsSection = () => {
                       </>
                     )}
 
-                    <div className="absolute bottom-5 left-6 right-6 flex items-end justify-between">
+                    <div className="absolute top-0 bottom-5 left-6 right-6 flex items-end justify-between">
                       <div className="flex items-center gap-3">
                         <div className={`p-2.5 rounded-full bg-gradient-to-br ${projects[activeProject].color} shadow-lg`}>
                           {(() => {

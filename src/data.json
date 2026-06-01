@@ -124,7 +124,7 @@
       "description": "Plateforme juridique centralisée permettant d’explorer les lois de Madagascar avec une structure hiérarchique claire, moderne et intuitive.",
       "icon": "ScaleIcon",
       "images": [
-        "https://your-image-link-here.com/madalaws.png"
+        "https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1778702722/Capture_d_%C3%A9cran_2026-05-13_224727_i2mi6p.png"
       ],
       "problem": "L’accès aux textes juridiques et à leur organisation reste complexe et peu intuitif pour les utilisateurs.",
       "solution": "Application web moderne proposant une navigation hiérarchique des lois, une interface élégante et des fonctionnalités comme les favoris et l’administration.",
@@ -138,7 +138,7 @@
       "description": "Landing page premium inspirée des marques de luxe mettant en valeur des sacs et accessoires en cuir avec une direction artistique élégante.",
       "icon": "BriefcaseBusinessIcon",
       "images": [
-        "https://your-image-link-here.com/saravea.png"
+        "https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1778702728/Capture_d_%C3%A9cran_2026-05-13_225224_l9s2lp.png"
       ],
       "problem": "Les marques artisanales ont besoin d’une présence digitale immersive capable de transmettre leur identité haut de gamme.",
       "solution": "Interface immersive avec typographie élégante, animations modernes et mise en avant visuelle des produits pour renforcer l’image de marque.",
@@ -155,7 +155,7 @@
     "location": "Antananarivo, Ambohimangakely",
     "social": {
       "github": "https://github.com/vals43",
-      "facebook": "https://web.facebook.com/teddy.avm",
+      "facebook": "https://www.facebook.com/Vals.43",
       "Linkedin": "https://www.linkedin.com/in/valisoa-mampianina-teddy-andrianiaina-433603380/"
     }
   }
