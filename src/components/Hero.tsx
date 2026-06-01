@@ -103,7 +103,7 @@ export function Hero() {
           }} whileTap={{
             scale: 0.95
           }} className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-medium flex items-center gap-2 shadow-lg shadow-cyan-500/25">
-              View Work <ArrowRight size={18} />
+              Voir Projets <ArrowRight size={18} />
             </motion.a>
 
 <motion.a
@@ -113,7 +113,7 @@ export function Hero() {
   whileTap={{ scale: 0.95 }}
   className="px-8 py-3 bg-gradient-to-r from-blue-800 to-blue-950 text-white rounded-full font-medium flex items-center gap-2 backdrop-blur-sm hover:bg-white/10 shadow-xl transition-colors shadow-blue-800/25"
 >
-  Download CV <Download size={18} />
+  Télécharger CV <Download size={18} />
 </motion.a>
           </div>
         </motion.div>

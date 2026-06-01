@@ -34,7 +34,7 @@ export function About() {
         duration: 0.6
       }} className="mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-            About <span className="text-cyan-400">Me</span>
+            À <span className="text-cyan-400">Propos</span>
           </h2>
           <div className="h-1 w-20 bg-purple-500 rounded-full" />
         </motion.div>
@@ -52,7 +52,7 @@ export function About() {
           duration: 0.6
         }} className="md:col-span-2">
             <GlassCard className="p-8 h-full">
-              <h3 className="text-2xl font-heading font-bold text-white mb-6">My Journey</h3>
+              <h3 className="text-2xl font-heading font-bold text-white mb-6">Mon Parcours</h3>
               <p className="text-gray-300 leading-relaxed text-lg mb-6">
                 {data.about.description}
               </p>
@@ -63,13 +63,13 @@ export function About() {
               <div className="mt-8 grid grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl bg-white/5 border border-white/5">
                   <h4 className="text-3xl font-bold text-cyan-400 mb-1">{data.about.yearsExperience}</h4>
-                  <p className="text-sm text-gray-400">Années d'Experiences</p>
+                  <p className="text-sm text-gray-400">Années d'expérience</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/5 border border-white/5">
                   <h4 className="text-3xl font-bold text-purple-400 mb-1">
                     {data.about.completeProject}
                   </h4>
-                  <p className="text-sm text-gray-400">Projets Complétés</p>
+                  <p className="text-sm text-gray-400">Projets réalisés</p>
                 </div>
               </div>
             </GlassCard>

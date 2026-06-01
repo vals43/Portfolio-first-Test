@@ -46,10 +46,10 @@ export default function ContactSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
-              Let's Work <span className="text-purple-400">Together</span>
+              Travaillons <span className="text-purple-400">Ensemble</span>
             </h2>
             <p className="text-gray-400 text-lg mb-12 max-w-md">
-              Have a project in mind? I'm always open to discussing new opportunities and creative ideas.
+              Un projet en tête ? Je suis toujours ouvert à discuter de nouvelles opportunités et d'idées créatives.
             </p>
             <div className="space-y-6 mb-12">
               <div className="flex items-center gap-4 text-gray-300">
@@ -66,8 +66,8 @@ export default function ContactSection() {
                   <Phone size={20} />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500">Phone</p>
-                  <p className="font-medium">{data.contact.phone}</p>
+                    <p className="text-sm text-gray-500">Téléphone</p>
+                    <p className="font-medium">{data.contact.phone}</p>
                 </div>
               </div>
               <div className="flex items-center gap-4 text-gray-300">
@@ -75,7 +75,7 @@ export default function ContactSection() {
                   <MapPin size={20} />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500">Location</p>
+                  <p className="text-sm text-gray-500">Localisation</p>
                   <p className="font-medium">{data.contact.location}</p>
                 </div>
               </div>
@@ -117,13 +117,13 @@ export default function ContactSection() {
                 {/* GRID 2x2 : Name/Email + Phone/Subject */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
-                    <label className="text-sm text-gray-400 ml-1">Name *</label>
+                    <label className="text-sm text-gray-400 ml-1">Nom *</label>
                     <input 
                       name="user_name" 
                       type="text" 
                       required 
                       className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all" 
-                      placeholder="John Doe" 
+                      placeholder="" 
                     />
                   </div>
                   <div className="space-y-2">
@@ -133,26 +133,26 @@ export default function ContactSection() {
                       type="email" 
                       required 
                       className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all" 
-                      placeholder="john@example.com" 
+                      placeholder="" 
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm text-gray-400 ml-1">Phone</label>
+                    <label className="text-sm text-gray-400 ml-1">Téléphone</label>
                     <input 
                       name="user_phone" 
                       type="tel" 
                       className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all" 
-                      placeholder="+261 34 12 345 67" 
+                      placeholder="" 
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm text-gray-400 ml-1">Subject *</label>
+                    <label className="text-sm text-gray-400 ml-1">Sujet *</label>
                     <input 
                       name="user_subject" 
                       type="text" 
                       required 
                       className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all" 
-                      placeholder="Website project" 
+                      placeholder="" 
                     />
                   </div>
                 </div>
@@ -164,7 +164,7 @@ export default function ContactSection() {
                     rows={5} 
                     required 
                     className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all resize-vertical" 
-                    placeholder="Tell me about your project, timeline, and budget..." 
+                    placeholder="Parle-moi de ton projet, délais, budget..." 
                   />
                 </div>
 
@@ -178,11 +178,11 @@ export default function ContactSection() {
                   {loading ? (
                     <>
                       <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                      Sending...
+                      Envoi...
                     </>
                   ) : (
                     <>
-                      Send Message <Send size={18} />
+                      Envoyer <Send size={18} />
                     </>
                   )}
                 </motion.button>

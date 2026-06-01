@@ -18,7 +18,7 @@ export function Education() {
         duration: 0.6
       }} className="mb-16 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-            Education
+            Formation
           </h2>
           <div className="h-1 w-20 bg-cyan-500 rounded-full mx-auto md:mx-0" />
         </motion.div>

@@ -77,7 +77,7 @@ const ProjectsSection = () => {
           className="text-center mb-20"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.06] text-[0.7rem] uppercase tracking-[0.2em] font-medium text-cyan-300 mb-5">
-            Portfolio
+            Projets
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-4">
             Mes{' '}
