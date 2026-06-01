@@ -2,7 +2,7 @@ import { useState, useRef, useMemo, useEffect } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import {
   GlobeIcon, SmartphoneIcon, DatabaseIcon, LayoutDashboardIcon,
-  XIcon, ExternalLinkIcon, GithubIcon,
+  XIcon, GithubIcon,
   ChevronLeftIcon, ChevronRightIcon, ArrowUpRight,
   ScaleIcon, BriefcaseBusinessIcon
 } from 'lucide-react';
@@ -342,16 +342,6 @@ const ProjectsSection = () => {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <a
-                      href={projects[activeProject].demoUrl}
-                      className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full text-sm font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/25 hover:scale-[1.02] active:scale-[0.98]"
-                    >
-                      <ExternalLinkIcon className="w-4 h-4" />
-                      <span>Pas encore déployé</span>
-                      <span className="w-6 h-6 rounded-full bg-white/15 flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
-                        <ArrowUpRight className="w-3.5 h-3.5" />
-                      </span>
-                    </a>
                     <a
                       href={projects[activeProject].repoUrl}
                       className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white/[0.04] border border-white/[0.08] rounded-full text-sm font-medium text-gray-300 transition-all duration-300 hover:bg-white/[0.08] hover:text-white hover:scale-[1.02] active:scale-[0.98]"

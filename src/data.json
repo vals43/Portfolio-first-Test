@@ -74,7 +74,7 @@
       "solution": "Single Page Application React avec animations Framer Motion et GSAP, design dark mode immersif, typographie soignée, et maillage de compétences interactif.",
       "technologies": ["React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "GSAP"],
       "demoUrl": "#",
-      "repoUrl": "#",
+      "repoUrl": "https://github.com/vals43/Portfolio-first-Test",
       "color": "from-cyan-500 to-purple-600"
     },
     {
