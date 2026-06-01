@@ -12,7 +12,7 @@
     "description": "",
     "detail": "Je suis convaincu que le bon design ne se résume pas à l’apparence, mais à la façon dont il fonctionne et à ce qu’il fait ressentir aux utilisateurs. Mon objectif est de créer des solutions numériques qui soient non seulement esthétiques, mais aussi intuitives et accessibles pour tous.",
     "yearsExperience": "Depuis 2024",
-    "completeProject" : 4,
+    "completeProject" : 7,
     "skills": [
       "UI/UX Design",
       "Web Development",
@@ -63,6 +63,20 @@
   ],
   
   "projects": [
+    {
+      "title": "Portfolio – Teddy Andrianiaina",
+      "description": "Portfolio personnel interactif présentant mes projets, compétences et parcours professionnel avec un design moderne et des animations immersives.",
+      "icon": "LayoutDashboardIcon",
+      "images": [
+        "https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1780300632/3742fb6b-9c7d-4185-a94f-bd0ab2735e22.png"
+      ],
+      "problem": "Un développeur a besoin d'une vitrine en ligne professionnelle pour présenter son travail et se différencier auprès des recruteurs et clients.",
+      "solution": "Single Page Application React avec animations Framer Motion et GSAP, design dark mode immersif, typographie soignée, et maillage de compétences interactif.",
+      "technologies": ["React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "GSAP"],
+      "demoUrl": "#",
+      "repoUrl": "#",
+      "color": "from-cyan-500 to-purple-600"
+    },
     {
       "title": "Application de suivi d’habitudes et de productivité",
       "description": "Cette application aide les utilisateurs à organiser leur quotidien, suivre leurs habitudes, gérer leurs tâches et visualiser leur productivité grâce à des statistiques claires et accessibles.",
@@ -147,8 +161,8 @@
       "repoUrl": "#",
       "color": "from-yellow-700 to-amber-500"
     }
-  ]
-,
+  ],
+
   "contact": {
     "email": "hei.teddy.3@gmail.com",
     "phone": "+261 38 85 156 72",

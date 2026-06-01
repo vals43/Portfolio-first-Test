@@ -233,8 +233,14 @@ const ProjectsSection = () => {
               exit={{ scale: 0.92, opacity: 0, y: 20 }}
               transition={{ duration: 0.5, ease: [0.32, 0.72, 0, 1] }}
               onClick={e => e.stopPropagation()}
-              className="rounded-[2rem] bg-white/[0.02] p-[1px] ring-1 ring-white/[0.06] w-full max-w-4xl max-h-[90vh] overflow-y-auto"
+              className="relative rounded-[2rem] bg-white/[0.02] p-[1px] ring-1 ring-white/[0.06] w-full max-w-4xl max-h-[90vh] overflow-y-auto"
             >
+              <button
+                className="absolute top-4 right-4 z-10 p-2.5 rounded-full bg-black/50 backdrop-blur-md hover:bg-black/70 transition-all border border-white/10"
+                onClick={() => setActiveProject(null)}
+              >
+                <XIcon className="w-5 h-5" />
+              </button>
               <div className="rounded-[calc(2rem-1px)] bg-[#0a0d1f]/95 backdrop-blur-2xl shadow-[inset_0_1px_1px_rgba(255,255,255,0.06)]">
                 <div className="relative">
                   <div className="relative h-72 md:h-80 overflow-hidden rounded-t-[calc(2rem-1px)]">
@@ -274,12 +280,6 @@ const ProjectsSection = () => {
                           {projects[activeProject].title}
                         </h3>
                       </div>
-                      <button
-                        className="p-2.5 rounded-full bg-black/50 backdrop-blur-md hover:bg-black/70 transition-all border border-white/10 flex-shrink-0"
-                        onClick={() => setActiveProject(null)}
-                      >
-                        <XIcon className="w-5 h-5" />
-                      </button>
                     </div>
                   </div>
 
