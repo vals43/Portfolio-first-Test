@@ -1,15 +1,17 @@
 import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { CodeIcon, ServerIcon, DatabaseIcon, PencilRulerIcon, BrainIcon, Languages } from 'lucide-react';
+import { CodeIcon, ServerIcon, DatabaseIcon, PencilRulerIcon, BrainIcon, Languages, Rocket, Globe, Terminal } from 'lucide-react';
 
 const skillCategories = [
     {
-        name: 'Language',
+        name: 'Langages',
         icon: <Languages className="w-6 h-6" />,
         color: 'from-cyan-500 to-blue-600',
         skills: [
             { name: 'JavaScript', level: 70 },
-            { name: 'Java', level: 70 }
+            { name: 'TypeScript', level: 65 },
+            { name: 'Java', level: 70 },
+            { name: 'Python', level: 40 }
         ]
     },
     {
@@ -20,7 +22,9 @@ const skillCategories = [
             { name: 'HTML', level: 60 },
             { name: 'CSS', level: 60 },
             { name: 'React', level: 70 },
-            { name: 'Tailwind CSS', level: 60 }
+            { name: 'Tailwind CSS', level: 60 },
+            { name: 'GSAP', level: 50 },
+            { name: 'Framer Motion', level: 55 }
         ]
     },
     {
@@ -30,9 +34,10 @@ const skillCategories = [
         skills: [
             { name: 'Node.js', level: 60 },
             { name: 'Express JS', level: 40 },
-            { name: 'Spring', level: 60 },
+            { name: 'Spring Boot', level: 60 },
             { name: 'JDBC', level: 60 },
-            { name: 'FAST API', level: 30 },
+            { name: 'FastAPI', level: 30 },
+            { name: 'REST API', level: 65 }
         ]
     },
     {
@@ -40,7 +45,23 @@ const skillCategories = [
         icon: <DatabaseIcon className="w-6 h-6" />,
         color: 'from-emerald-500 to-green-600',
         skills: [
-            { name: 'PostgreSQL', level: 70 }
+            { name: 'PostgreSQL', level: 70 },
+            { name: 'MySQL', level: 50 }
+        ]
+    },
+    {
+        name: 'Déploiement & DevOps',
+        icon: <ServerIcon className="w-6 h-6" />,
+        color: 'from-orange-500 to-yellow-600',
+        skills: [
+            { name: 'Vercel', level: 65 },
+            { name: 'Netlify', level: 60 },
+            { name: 'Render', level: 50 },
+            { name: 'Neon', level: 55 },
+            { name: 'Poja', level: 40 },
+            { name: 'Docker', level: 45 },
+            { name: 'Git', level: 70 },
+            { name: 'GitHub Actions', level: 50 }
         ]
     },
     {
@@ -55,6 +76,16 @@ const skillCategories = [
         ]
     },
     {
+        name: 'Langues',
+        icon: <Languages className="w-6 h-6" />,
+        color: 'from-teal-500 to-emerald-600',
+        skills: [
+            { name: 'Malagasy (Natif)', level: 100 },
+            { name: 'Français (Courant)', level: 90 },
+            { name: 'Anglais (Technique)', level: 60 }
+        ]
+    },
+    {
         name: 'Soft Skills',
         icon: <BrainIcon className="w-6 h-6" />,
         color: 'from-blue-500 to-indigo-600',
@@ -62,7 +93,8 @@ const skillCategories = [
             { name: 'Problem Solving', level: 90 },
             { name: 'Communication', level: 85 },
             { name: 'Adaptabilité', level: 80 },
-            { name: 'Gestion de Projet', level: 80 }
+            { name: 'Gestion de Projet', level: 80 },
+            { name: 'Travail d\'Équipe', level: 75 }
         ]
     }
 ];
